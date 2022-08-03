@@ -39,7 +39,7 @@ function SectionOne() {
                 </div>
             </div>
             <div className='col-8 right-div' style={{width: width-300,}}>
-                <img src={Star} alt="Star" width="100px" className='star animate__animated animate__flip' />
+                <img src={Star} alt="Star" width="100px" className='star animate__animated animate__flip animate__delay-3s' />
                 <img src={Play} alt="Play" width={width * 0.15} className='play' />
                 <div className='row pt-5'>
                     <div className='col-8 offset-2 mt-5 pt-5 animate__animated animate__fadeInUp animate__delay-2s'>
