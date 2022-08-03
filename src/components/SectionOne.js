@@ -32,14 +32,16 @@ function SectionOne() {
             </div>
         </div>
         <div className='row'>
-            <div className='col-4 left-div animate__animated animate__zoomIn animate__delay-2s' style={{width: 300,}}>
-                <img src={Circle} alt="Circle" width="106px" className='circle' />
-                <img src={ProductHome} alt="Product" width="100%" />
+            <div className='col-4' style={{width: 300,}}>
+                <div className='left-div'>
+                    <img src={Circle} alt="Circle" width="106px" className='circle animate__animated animate__zoomIn animate__delay-2s' />
+                    <img src={ProductHome} alt="Product" width="100%" className='animate__animated animate__zoomIn animate__delay-2s' />
+                </div>
             </div>
             <div className='col-8 right-div' style={{width: width-300,}}>
                 <img src={Star} alt="Star" width="100px" className='star animate__animated animate__flip' />
                 <img src={Play} alt="Play" width={width * 0.15} className='play' />
-                <div className='row pt-5 animate__animated animate__fadeInDown animate__delay-2s'>
+                <div className='row pt-5'>
                     <div className='col-8 offset-2 mt-5 pt-5 animate__animated animate__fadeInUp animate__delay-2s'>
                         <div className='col-12'>
                             <h2 className=''>The self care brand that's <br />setting a new <span>standard <br />Clean</span> products.</h2>

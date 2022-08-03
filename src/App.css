@@ -428,8 +428,8 @@ body {
   /* width: 300px; */
   margin-top: 50px;
   border-radius: 150px;
-  position: relative;
-  left: -150px;
+  position: absolute;
+  right: 150px;
   text-align: center;
   display: flex;
   align-items: flex-end;
@@ -578,10 +578,11 @@ body {
 .section-five-right {
   background-color: #F6866A;
   height: 300px;
-  margin-top: 25px;
+  margin-top: 0px;
   border-radius: 50%;
-  position: relative;
-  left: -150px;
+  position: absolute;
+  top: 75px;
+  right: 225px;
   text-align: center;
   /* display: flex;
   align-items: flex-end; */
@@ -589,7 +590,6 @@ body {
 }
 .section-five-right img {
   border-radius: 50%;
-  zoom: 0.1;
 }
 .section-five .partners {
   position: relative;

@@ -31,10 +31,10 @@ function SectionFive() {
                         <br />
                         <h5>{reviews[active-1].name}</h5>
                         <div className='row'>
-                            <div className='col-10'>
+                            <div className='col-9'>
                                 <p>{reviews[active-1].location}</p>
                             </div>
-                            <div className='col-2'>
+                            <div className='col-3'>
                                 <button onClick={() => setActive(1)} className='slide-button' style={{background: active === 1 ? '#F5683C' : '#FFFFFF'}}></button>
                                 <button onClick={() => setActive(2)} className='slide-button' style={{background: active === 2 ? '#F5683C' : '#FFFFFF'}}></button>
                                 <button onClick={() => setActive(3)} className='slide-button' style={{background: active === 3 ? '#F5683C' : '#FFFFFF'}}></button>
